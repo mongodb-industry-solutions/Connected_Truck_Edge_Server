@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Sport Car - 3D model/Lights example.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

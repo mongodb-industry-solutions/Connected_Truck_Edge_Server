@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{660DE742-B238-A829-781D-AAB2FE7179E1}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ResetBattery.cs">
+    <Files>
+      <File FileName="Assets/RealmSchema.cs" Line="1" Column="1" />
+      <File FileName="Assets/Animations.cs" />
+      <File FileName="Assets/ResetBattery.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unity Car" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="227e5f4c-f7c7-443f-b09b-2c2919531eb1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
