@@ -1,17 +1,17 @@
-# Connected Vehicle with Edge Server
+# Connected Truck with Edge Server
 The automotive and transportation industries are going through a significant transformation.
 
 This transformation is the shift to software-focused vehicles. This is known as **Software Defined Vehicles**. 
 
-Thanks to being able to reliably ship new updates to software on the vehicles, this transformation will enable innovative customer experiences, increase security, make more efficient transportation and open new business models. 
+Thanks to being able to reliably ship new updates to software on the trucks, this transformation will enable innovative customer experiences, increase security, make more efficient transportation and open new business models. 
 
-However, creating a state-of-the-art connected vehicle platform requires a high quality foundation.
+However, creating a state-of-the-art connected truck platform requires a high quality foundation.
 In this demonstration, we will showcase a connected vehicle utilizing MongoDB Edge Server, the Atlas Device SDKs (previously known as Realm), and Device Sync. 
 
 MongoDB and its Device SDKs serve as a comprehensive data layer, facilitating effective two-way data transfer and maintaining consistency across ECUs, DCUs, HCPs, mobile devices, and cloud systems. Allowing you to focus on value-generating work such as enhancing the driving experience, gaining value out of the data or produce the right recommendations.
 
 
-In this Repository we will walk you through how to set up this connected vehicle demo following the architecture below:
+In this Repository we will walk you through how to set up this connected truck demo following the architecture below:
 
 ![Alt Text](media/high-level-arch.png)
 
@@ -38,13 +38,13 @@ You can also follow the instructions on [this page](https://www.mongodb.com/docs
 2. [Generate API key](https://www.mongodb.com/docs/atlas/app-services/cli/#generate-an-api-key), assign the `Project Owner` permission and add your IP address to the access list
 3. [Login with your API key](https://www.mongodb.com/docs/atlas/app-services/cli/#authenticate-with-an-api-key)
 
-4. In the terminal, navigate to `/atlas_backend` on this repository and import the Connected-Vehicle application with the command:
+4. In the terminal, navigate to `/atlas_backend` on this repository and import the Connected-Truck application with the command:
 
-    `appservices push --local ./Connected-Vehicle-Edge-Server --remote Connected-Vehicle-Edge-Server` 
+    `appservices push --local ./Connected-Truck-Edge-Server --remote Connected-Truck-Edge-Server` 
 
     You will be prompted to configure the app [options](https://www.mongodb.com/docs/atlas/app-services/cli/appservices-push/#appservices-push). Set them according your needs. If you are unsure which options to choose, the default ones are usually a good way to start! 
 
-    4.a If you are building this app on an existing cluster that isn't named `Connected-Vehicle-DB`, you should go to `atlas_backend/Connected-Vehicle-Edge-Server/data_sources/mongodb-atlas/config.json` and edit the `clusterName` field such as `"clusterName": "<your-cluster-name>",`
+    4.a If you are building this app on an existing cluster that isn't named `Connected-Vehicle-DB`, you should go to `atlas_backend/Connected-Truck-Edge-Server/data_sources/mongodb-atlas/config.json` and edit the `clusterName` field such as `"clusterName": "<your-cluster-name>",`
 
     After you've chosen your options, you should see the following appear: 
 
@@ -56,7 +56,7 @@ You can also follow the instructions on [this page](https://www.mongodb.com/docs
     
     Your App ID should be in the following format: YourAppName-XXXXX
 
-5. Create the demo user by pasting the following into your command shell: `appservices users create --type email --email demo --password demopw`. Be sure to change the default password. You then have to provide the previously received App ID or just type the application name `Connected-Vehicle-Edge-Server`.
+5. Create the demo user by pasting the following into your command shell: `appservices users create --type email --email demo --password demopw`. Be sure to change the default password. You then have to provide the previously received App ID or just type the application name `Connected-Truck-Edge-Server`.
 
     You should see the following appear: 
         
